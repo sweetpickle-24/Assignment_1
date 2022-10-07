@@ -1,3 +1,10 @@
+/*
+Assignment1 app.js
+Author: Vladyslav Byelozerskykh	
+ID: 301182353 
+Date: 06/10/2022
+ */
+
 // installed 3rd party packages
 let createError = require('http-errors');
 let express = require('express');

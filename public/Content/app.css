@@ -1,4 +1,9 @@
-/* custom css goes here */
+/*
+Assignment1 app.css
+Author: Vladyslav Byelozerskykh	
+ID: 301182353 
+Date: 06/10/2022
+ */
 
 html {
   height: 100%;
@@ -72,84 +77,103 @@ h6{
   width: 375px;
 }
 
-  table{
-    border-spacing: 30px;
-    width: 130%;
 
-  }
+.image4{
+  height: 300px;
+  width: 230px;
+  border-radius: 20%;
+  display: inline-block;
+  margin: 0px 120px;
 
-
-  aside { 
-    text-align: right; 
-  }
-  
-  .row{
-    text-align: left;
-  }
-
-  footer{
-    position: fixed;
-  }
-
-  header{
-
-    position: fixed;
-    }
-
-    .panel{
-      background-color:#D3D3D3	;
-      height: 55px;
-      border: 1px solid;
-      border-radius: 4px;
-
-      
+}
 
 
-    }
-    .contact{
-      width:100%;
-    }
+table{
+  border-spacing: 30px;
+  width: 130%;
+
+}
+
+.table2{
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+aside { 
+  text-align: right; 
+}
+
+.row{
+  text-align: left;
+}
+
+footer{
+  position: fixed;
+}
+
+header{
+
+  position: fixed;
+}
+
+.panel{
+  background-color:#D3D3D3	;
+  height: 55px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+.contact{
+  width:100%;
+}
 
 
-    textarea {
-      width: 100%;
-      height: 50px;
-      padding: 12px 20px;
-      box-sizing: border-box;
-      border: 2px solid #ccc;
-      border-radius: 4px;
-      background-color: #f8f8f8;
-      font-size: 16px;
-      resize: none;
-    }
+textarea {
+  width: 100%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
 
-    input{
-      border: 2px solid #ccc;
-      border-radius: 4px;
-      background-color: #f8f8f8;
-      font-size: 16px;
-      resize: none;
-    }
+input{
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
 
-    #register:hover{
-      color:white;
-      background-color: black;
-  }
-      
-      #clear:hover{
-          color:white;
-          background-color: black;
-      }
+#register:hover{
+  color:white;
+  background-color: black;
+}
 
-      .project{
-        width:90%;
-       margin-left: auto;
-       margin-right: auto;
-      }
+#clear:hover{
+  color:white;
+  background-color: black;
+}
 
-      .nametag{
-        text-align: center;
-        margin-left:auto;
-        margin-right:auto;
+.project{
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-      }
+.nametag{
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.about{
+  text-align: left;
+}
+
+.name{
+  text-align: center;
+}
