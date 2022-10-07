@@ -1,5 +1,11 @@
 /* custom css goes here */
 
+html {
+  height: 100%;
+  margin: auto;
+  
+
+}
 
 body{
   background-color:#F5F5F5;
@@ -14,7 +20,7 @@ h1, h2, h3, h4, h5{
 h6{
   font-family: "Bitter", serif;
   font-style: italic;
-
+  text-align: center;
 }
 
 
@@ -92,7 +98,7 @@ h6{
 
     .panel{
       background-color:#D3D3D3	;
-      height: 60px;
+      height: 55px;
       border: 1px solid;
       border-radius: 4px;
 
@@ -125,3 +131,25 @@ h6{
       resize: none;
     }
 
+    #register:hover{
+      color:white;
+      background-color: black;
+  }
+      
+      #clear:hover{
+          color:white;
+          background-color: black;
+      }
+
+      .project{
+        width:90%;
+       margin-left: auto;
+       margin-right: auto;
+      }
+
+      .nametag{
+        text-align: center;
+        margin-left:auto;
+        margin-right:auto;
+
+      }
